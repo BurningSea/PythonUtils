@@ -8,7 +8,7 @@ def checkCommand(cmd):
 			sys.exit(0);
 
 def getSubversionLog():
-	SVN='/usr/bin/svn';
+	SVN='svn';
 	OUTPUT='./svn.log';
 
 	checkCommand(SVN);
